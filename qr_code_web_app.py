@@ -2,7 +2,6 @@ import streamlit as st
 import qrcode
 from io import BytesIO
 # from PIL import Image
-
 st.title(":blue[QRCODE GENERATOR] ")
 input=st.text_input("Enter Text/Url here")
 if st.button("Generate QR Code"):
